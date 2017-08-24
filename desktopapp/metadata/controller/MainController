@@ -16,6 +16,10 @@
             "Items"
         ]
     },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "stores": "typedarray"
+    },
     "designerId": "e8527c92-ceb8-4982-a9ac-d42633aec5b6",
     "cn": [
         {
@@ -45,6 +49,15 @@
                 "name": "customerselect",
                 "scope": "me"
             },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|targetType": "view",
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onCustomerSelect",
             "designerId": "6415a5be-3a2e-47f5-acdc-f1d7f9563de2"
         },
         {
@@ -58,6 +71,11 @@
                 "ref": "customers",
                 "selector": "main > #cards"
             },
+            "configAlternates": {
+                "ref": "string",
+                "selector": "string"
+            },
+            "name": "customers",
             "designerId": "e1f65309-dd7e-4d3b-b168-10e5640b2e7a"
         },
         {
@@ -71,6 +89,11 @@
                 "ref": "customerDetail",
                 "selector": "customerdetail"
             },
+            "configAlternates": {
+                "ref": "string",
+                "selector": "string"
+            },
+            "name": "customerDetail",
             "designerId": "2c52ac1f-a54b-48cc-ba19-5271150eb8f2"
         },
         {
@@ -84,6 +107,11 @@
                 "ref": "orderDetail",
                 "selector": "orderdetail"
             },
+            "configAlternates": {
+                "ref": "string",
+                "selector": "string"
+            },
+            "name": "orderDetail",
             "designerId": "95653b7a-609e-40cf-a2e1-633ff402dd57"
         },
         {
@@ -113,6 +141,15 @@
                 "name": "orderselect",
                 "scope": "me"
             },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|targetType": "view",
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onOrderSelect",
             "designerId": "e8119546-3c69-402b-9455-5b8bd0ba49d5"
         },
         {
@@ -132,6 +169,15 @@
                 "name": "activate",
                 "scope": "me"
             },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|targetType": "view",
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onCardSwitch",
             "designerId": "522805c4-94a5-4df1-91ff-17c3ec0b851a"
         },
         {
@@ -145,6 +191,11 @@
                 "ref": "main",
                 "selector": "main"
             },
+            "configAlternates": {
+                "ref": "string",
+                "selector": "string"
+            },
+            "name": "main",
             "designerId": "f72d360f-ee56-4771-af3b-8ac010e141f4"
         },
         {
@@ -164,6 +215,15 @@
                 "name": "breadcrumbactivate",
                 "scope": "me"
             },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|targetType": "view",
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onBreadcrumbsBreadcrumbactivate",
             "designerId": "53c54d91-0293-467d-8f0f-6d221690bda0"
         },
         {
@@ -177,6 +237,11 @@
                 "ref": "cardCt",
                 "selector": "#cardCt"
             },
+            "configAlternates": {
+                "ref": "string",
+                "selector": "string"
+            },
+            "name": "cardCt",
             "designerId": "97d353a8-0444-493f-a857-e5d29fe0b7f1"
         },
         {
@@ -203,6 +268,15 @@
                 "name": "neworder",
                 "scope": "me"
             },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|targetType": "view",
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onNewOrder",
             "designerId": "8f13533a-72f7-4ee0-8f20-eb9e05dd0033"
         },
         {
@@ -222,6 +296,15 @@
                 "name": "ordercancel",
                 "scope": "me"
             },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|targetType": "view",
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onOrderCancel",
             "designerId": "b570d1df-f169-4f91-b3fa-e06ddfd6131c"
         },
         {
@@ -267,6 +350,15 @@
                 "name": "ordersave",
                 "scope": "me"
             },
+            "configAlternates": {
+                "designer|controlQuery": "string",
+                "designer|targetType": "view",
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onOrderSave",
             "designerId": "dbc4ae07-ce3d-4cb5-9d3b-36d4b423d32d"
         }
     ]

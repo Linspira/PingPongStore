@@ -9,6 +9,10 @@
         "designer|userClassName": "LineItem",
         "idProperty": "lineItemId"
     },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "idProperty": "string"
+    },
     "designerId": "01039786-0d8e-4953-bbd4-dc087de95933",
     "cn": [
         {
@@ -21,6 +25,10 @@
             "userConfig": {
                 "name": "lineItemId"
             },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyField25",
             "designerId": "a4bd0218-c671-4df5-9676-53158be68053"
         },
         {
@@ -33,6 +41,10 @@
             "userConfig": {
                 "name": "itemId"
             },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyField26",
             "designerId": "71e88d62-ed92-4bd9-9911-42c3fc3076e3"
         },
         {
@@ -47,6 +59,12 @@
                 "name": "itemName",
                 "type": "string"
             },
+            "configAlternates": {
+                "mapping": "auto",
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField27",
             "designerId": "499dc9ba-d949-4e92-b7f1-287de69cd82d"
         },
         {
@@ -60,6 +78,11 @@
                 "name": "quantityOrdered",
                 "type": "int"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField28",
             "designerId": "445ff76e-a9e3-4fb1-9721-f7e3c1b127e7"
         },
         {
@@ -73,6 +96,11 @@
                 "name": "perUnitPrice",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField29",
             "designerId": "2373479a-f587-41f8-9f03-05092d3cdae2"
         },
         {
@@ -86,6 +114,11 @@
                 "name": "totalPrice",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField30",
             "designerId": "2b9acad1-a1e9-4ca2-8b30-3359e1797598"
         },
         {
@@ -99,6 +132,11 @@
                 "name": "packDate",
                 "type": "date"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField31",
             "designerId": "bfc67e01-ba93-4002-8498-ca808db75ff5"
         }
     ]

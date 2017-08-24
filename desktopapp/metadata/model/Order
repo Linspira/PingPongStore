@@ -9,6 +9,10 @@
         "designer|userClassName": "Order",
         "idProperty": "orderId"
     },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "idProperty": "string"
+    },
     "designerId": "7715829a-95ff-43cf-b3ea-6d2ef294fb7c",
     "cn": [
         {
@@ -21,6 +25,10 @@
             "userConfig": {
                 "name": "id"
             },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyField14",
             "designerId": "a7611f73-9c82-4be0-8bdd-2fbd450c0260"
         },
         {
@@ -34,6 +42,11 @@
                 "name": "orderNo",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField15",
             "designerId": "83b00e43-813d-4c18-9fcc-11bfe6945dda"
         },
         {
@@ -48,6 +61,12 @@
                 "name": "orderDate",
                 "type": "string"
             },
+            "configAlternates": {
+                "dateFormat": "string",
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField16",
             "designerId": "de72385c-ac20-49d6-9a69-946f8b65d2af"
         },
         {
@@ -62,6 +81,12 @@
                 "name": "shippedDate",
                 "type": "string"
             },
+            "configAlternates": {
+                "dateFormat": "string",
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField17",
             "designerId": "3dadccbd-dd6d-40c1-bd18-c2cc858c8c9d"
         },
         {
@@ -75,6 +100,11 @@
                 "name": "balance",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField18",
             "designerId": "b6d08b68-476b-4db9-9202-49c76d416217"
         },
         {
@@ -88,6 +118,11 @@
                 "name": "subTotal",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField19",
             "designerId": "3df19e0d-ccb5-45c9-841c-f15895583a18"
         },
         {
@@ -101,6 +136,11 @@
                 "name": "shipping",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField20",
             "designerId": "1746a9b5-014a-4535-8ccf-b387341cf128"
         },
         {
@@ -114,6 +154,11 @@
                 "name": "tax",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField21",
             "designerId": "f2e55cbf-f578-4b2c-9c43-5f8245cbb5ad"
         },
         {
@@ -127,6 +172,11 @@
                 "name": "total",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField22",
             "designerId": "7501ae0e-67a1-4ce3-99ab-b8b4f5889cae"
         }
     ]

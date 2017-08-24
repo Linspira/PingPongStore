@@ -15,9 +15,14 @@
         "html": null,
         "itemId": "breadcrumbs"
     },
-    "mockCfgs": [
-        "data"
-    ],
+    "configAlternates": {
+        "cls": "string",
+        "data": "object",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "html": "object",
+        "itemId": "string"
+    },
     "designerId": "d12bc16d-2e68-4433-af85-d42f91f1f49c",
     "cn": [
         {
@@ -39,6 +44,11 @@
                     "</tpl>"
                 ]
             },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "implHandler": "code"
+            },
+            "name": "tpl",
             "designerId": "80b54eae-5938-4f59-a17f-c0f06c8c6b13"
         },
         {
@@ -55,6 +65,11 @@
                     "index"
                 ]
             },
+            "configAlternates": {
+                "name": "string",
+                "params": "typedarray"
+            },
+            "name": "CustomEvent",
             "designerId": "3ff7ca0d-bf26-4aff-8a81-6ac9c301a8e9"
         },
         {
@@ -77,6 +92,13 @@
                 "name": "afterrender",
                 "scope": "me"
             },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code",
+                "name": "string",
+                "scope": "string"
+            },
+            "name": "onBreadcrumbsAfterRender",
             "designerId": "6001d1d2-f7bc-4ad0-aabd-e2629f1d0ba0"
         }
     ]

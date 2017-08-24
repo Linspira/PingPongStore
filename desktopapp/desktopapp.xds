@@ -3,7 +3,7 @@
     "settings": {
         "cmd": {
             "license": "commercial",
-            "cmdVersion": "4.0.1.33",
+            "cmdVersion": "6.5.1.240",
             "frameworkVersion": "4.2.1.883"
         },
         "spacesToIndent": 4,
@@ -30,12 +30,13 @@
         "lastBuildSelection": {
             "value": "webBuild",
             "display": "Build web app"
-        }
+        },
+        "urlPrefixTemplate": "http://localhost:{port}/{path}"
     },
-    "xdsVersion": "3.0.0",
-    "xdsBuild": 1337,
+    "xdsVersion": "4.2.2",
+    "xdsBuild": 282,
     "schemaVersion": 1,
-    "upgradeVersion": 300000000003,
+    "upgradeVersion": 310000000001,
     "framework": "ext42",
     "viewOrderMap": {
         "view": [

@@ -11,5 +11,11 @@
         "designer|userClassName": "Library",
         "theme": "neptune"
     },
+    "configAlternates": {
+        "basePath": "uri",
+        "debug": "boolean",
+        "designer|userClassName": "string",
+        "theme": "string"
+    },
     "designerId": "049bdd16-daaf-4079-beec-2e9dc132e5e2"
 }

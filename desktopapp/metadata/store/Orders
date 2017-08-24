@@ -20,9 +20,13 @@
         "model": "Order",
         "storeId": "Orders"
     },
-    "mockCfgs": [
-        "data"
-    ],
+    "configAlternates": {
+        "autoLoad": "boolean",
+        "data": "array",
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
     "designerId": "588df6d4-867e-4489-8b69-86223ef23d6a",
     "cn": [
         {
@@ -38,6 +42,11 @@
                     "customerId"
                 ]
             },
+            "configAlternates": {
+                "directFn": "direct",
+                "paramOrder": "typedarray"
+            },
+            "name": "MyDirectProxy2",
             "designerId": "511595b9-317c-45d9-acfe-54711979f0ef"
         },
         {
@@ -51,6 +60,11 @@
                 "direction": "DESC",
                 "property": "orderDate"
             },
+            "configAlternates": {
+                "direction": "string",
+                "property": "string"
+            },
+            "name": "MySorter",
             "designerId": "26e2e5eb-8acb-45cc-8505-51d97d423932"
         }
     ]

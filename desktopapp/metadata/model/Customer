@@ -9,6 +9,10 @@
         "designer|userClassName": "Customer",
         "idProperty": "customerId"
     },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "idProperty": "string"
+    },
     "designerId": "b2f563ae-b95d-4e23-a44f-305f84c8d03b",
     "cn": [
         {
@@ -21,6 +25,10 @@
             "userConfig": {
                 "name": "customerId"
             },
+            "configAlternates": {
+                "name": "string"
+            },
+            "name": "MyField",
             "designerId": "5286aacb-26de-40b9-b127-6c1593ce371b"
         },
         {
@@ -34,6 +42,11 @@
                 "name": "name",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField1",
             "designerId": "0f62c47b-511f-4894-8174-b5d89c8b4e32"
         },
         {
@@ -47,6 +60,11 @@
                 "name": "address",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField2",
             "designerId": "53548653-5060-4b46-8b4b-e5a3ac88a0c1"
         },
         {
@@ -60,6 +78,11 @@
                 "name": "city",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField3",
             "designerId": "35e27d92-4bd8-4a77-9674-0fd37f2584e3"
         },
         {
@@ -73,6 +96,11 @@
                 "name": "state",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField4",
             "designerId": "17a7a1ae-1915-48f9-829d-9f8ebc74e089"
         },
         {
@@ -86,6 +114,11 @@
                 "name": "zip",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField5",
             "designerId": "4b9da332-9259-467c-878b-25d3578eb7ba"
         },
         {
@@ -99,6 +132,11 @@
                 "name": "phone",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField6",
             "designerId": "6def9518-a1fd-4579-b9a5-bf1e7d267b13"
         },
         {
@@ -112,6 +150,11 @@
                 "name": "fax",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField7",
             "designerId": "9e9bcef1-b01f-4d3e-8291-af45d8b65fb3"
         },
         {
@@ -125,6 +168,11 @@
                 "name": "category",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField8",
             "designerId": "c32e5a8e-951f-43ef-89e4-a2504f41f5e2"
         },
         {
@@ -138,6 +186,11 @@
                 "name": "balance",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField9",
             "designerId": "71c72290-1911-4c1b-8a63-37fd855fdff6"
         }
     ]

@@ -1,9 +1,7 @@
 Ext.define('Orders.DirectAPI', {
-    requires: ['Ext.direct.*']
+    requires: ['Ext.direct.*', 'Ext.Ajax']
 }, function() {
-    var Loader = Ext.Loader,
-        wasLoading = Loader.isLoading;
-    Loader.loadScriptFile('/directapi', Ext.emptyFn, Ext.emptyFn, null, true);
-    Loader.isLoading = wasLoading;
-    Ext.direct.Manager.addProvider(Fulfill.ss.REMOTING_API);
+    // The Direct API information could not be found.
+    // Try refreshing your Direct Resource, and make sure
+    // its "url" config points to a valid Direct API endpoint.
 });

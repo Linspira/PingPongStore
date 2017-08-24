@@ -31,5 +31,13 @@
             "Breadcrumbs"
         ]
     },
+    "configAlternates": {
+        "controllers": "typedarray",
+        "models": "typedarray",
+        "name": "string",
+        "requires": "typedarray",
+        "views": "typedarray"
+    },
+    "name": "Application",
     "designerId": "application"
 }

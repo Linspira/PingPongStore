@@ -19,9 +19,13 @@
         "model": "LineItem",
         "storeId": "LineItems"
     },
-    "mockCfgs": [
-        "data"
-    ],
+    "configAlternates": {
+        "autoLoad": "boolean",
+        "data": "array",
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
     "designerId": "375c4347-e3d7-4867-9fee-966c0c19ed9a",
     "cn": [
         {
@@ -37,6 +41,11 @@
                     "orderId"
                 ]
             },
+            "configAlternates": {
+                "directFn": "direct",
+                "paramOrder": "typedarray"
+            },
+            "name": "MyDirectProxy4",
             "designerId": "6a5debc1-19f9-41cc-a993-8957d3880740"
         }
     ]

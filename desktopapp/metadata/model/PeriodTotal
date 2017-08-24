@@ -8,6 +8,9 @@
     "userConfig": {
         "designer|userClassName": "PeriodTotal"
     },
+    "configAlternates": {
+        "designer|userClassName": "string"
+    },
     "designerId": "b7ce09b0-2ac8-4622-a059-a9a0a3e304cd",
     "cn": [
         {
@@ -22,6 +25,12 @@
                 "name": "quarter",
                 "type": "string"
             },
+            "configAlternates": {
+                "mapping": "auto",
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField23",
             "designerId": "851a568b-56f5-44d6-875f-817e0e00c6c1"
         },
         {
@@ -35,6 +44,11 @@
                 "name": "total",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField24",
             "designerId": "9bbf84c6-7946-4eaf-9d63-1d7de92fa991"
         }
     ]

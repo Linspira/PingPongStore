@@ -15,6 +15,16 @@
         "title": "Customers",
         "width": null
     },
+    "configAlternates": {
+        "container|align": "string",
+        "container|padding": "auto",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "layout": "string",
+        "title": "string",
+        "width": "auto"
+    },
     "designerId": "1e53f66b-c073-443e-bad5-3b3a4753ad9c",
     "cn": [
         {
@@ -30,6 +40,13 @@
                 "height": 210,
                 "layout": "hbox"
             },
+            "configAlternates": {
+                "container|align": "string",
+                "designer|displayName": "string",
+                "height": "auto",
+                "layout": "string"
+            },
+            "name": "MyContainer",
             "designerId": "069ca559-b995-48f2-98da-16afd8f37667",
             "cn": [
                 {
@@ -49,6 +66,15 @@
                         "store": "CustomerCategories",
                         "width": null
                     },
+                    "configAlternates": {
+                        "animate": "object",
+                        "designer|displayName": "string",
+                        "height": "auto",
+                        "layout|flex": "number",
+                        "store": "store",
+                        "width": "auto"
+                    },
+                    "name": "ColumnChart",
                     "designerId": "f8c4dd1d-d294-4d12-9851-2513b03031c4",
                     "isBuiltIn": true,
                     "iconCls": "icon-column-chart",
@@ -68,6 +94,12 @@
                                 ],
                                 "title": null
                             },
+                            "configAlternates": {
+                                "dashSize": "number",
+                                "fields": "typedarray",
+                                "title": "string"
+                            },
+                            "name": "MyCategoryAxis",
                             "designerId": "b258f365-bdee-4b32-ad7b-1217f84149c1"
                         },
                         {
@@ -89,6 +121,12 @@
                                 ],
                                 "title": null
                             },
+                            "configAlternates": {
+                                "fields": "typedarray",
+                                "label": "object",
+                                "title": "string"
+                            },
+                            "name": "MyNumericAxis",
                             "designerId": "9ffd372b-0b44-47f6-a3b2-38dfeefda2e1"
                         },
                         {
@@ -123,6 +161,16 @@
                                     "currentQtrTotal"
                                 ]
                             },
+                            "configAlternates": {
+                                "groupGutter": "number",
+                                "gutter": "number",
+                                "shadowAttributes": "array",
+                                "tips": "object",
+                                "title": "typedarray",
+                                "xField": "datafield",
+                                "yField": "typedarray"
+                            },
+                            "name": "MyColumnSeries",
                             "designerId": "cd016a6c-7d46-4851-a0f5-3b4c2dbacc32",
                             "cn": [
                                 {
@@ -147,6 +195,12 @@
                                             "return attributes;"
                                         ]
                                     },
+                                    "configAlternates": {
+                                        "designer|params": "typedarray",
+                                        "fn": "string",
+                                        "implHandler": "code"
+                                    },
+                                    "name": "renderer",
                                     "designerId": "241d3551-92ab-47d9-96a1-9e483ee5f009"
                                 }
                             ]
@@ -173,6 +227,18 @@
                         "theme": null,
                         "width": 350
                     },
+                    "configAlternates": {
+                        "animate": "object",
+                        "designer|displayName": "string",
+                        "height": "auto",
+                        "insetPadding": "number",
+                        "layout|flex": "number",
+                        "shadow": "boolean",
+                        "store": "store",
+                        "theme": "string",
+                        "width": "auto"
+                    },
+                    "name": "PieChart",
                     "designerId": "49041358-58ff-4fce-b744-9390f90b1bf9",
                     "isBuiltIn": true,
                     "iconCls": "icon-pie-chart",
@@ -205,6 +271,16 @@
                                     "}"
                                 ]
                             },
+                            "configAlternates": {
+                                "angleField": "datafield",
+                                "colorSet": "array",
+                                "designer|displayName": "string",
+                                "donut": "number",
+                                "label": "object",
+                                "shadowAttributes": "array",
+                                "tips": "object"
+                            },
+                            "name": "MyPieSeries",
                             "designerId": "c06cebbd-d0df-4f79-af43-0442d1dee9dd"
                         },
                         {
@@ -247,6 +323,18 @@
                                 ],
                                 "title": null
                             },
+                            "configAlternates": {
+                                "angleField": "datafield",
+                                "colorSet": "array",
+                                "designer|displayName": "string",
+                                "donut": "number",
+                                "label": "object",
+                                "shadowAttributes": "array",
+                                "showInLegend": "boolean",
+                                "tips": "object",
+                                "title": "string"
+                            },
+                            "name": "MyPieSeries1",
                             "designerId": "d15e4172-27d3-4528-8f76-0f8e35eb8c3a"
                         },
                         {
@@ -263,6 +351,14 @@
                                 "position": "right",
                                 "x": null
                             },
+                            "configAlternates": {
+                                "boxFill": "string",
+                                "boxStroke": "string",
+                                "padding": "number",
+                                "position": "string",
+                                "x": "number"
+                            },
+                            "name": "MyLegend",
                             "designerId": "f0642a53-6778-4ee7-aff2-742ebaeeb092"
                         }
                     ]
@@ -284,9 +380,15 @@
                 "store": "Customers",
                 "title": ""
             },
-            "mockCfgs": [
-                "data"
-            ],
+            "configAlternates": {
+                "data": "object",
+                "designer|displayName": "string",
+                "disableSelection": "boolean",
+                "layout|flex": "number",
+                "store": "store",
+                "title": "string"
+            },
+            "name": "MyGridPanel",
             "designerId": "21548a26-8ae9-41dc-be80-b03c72e21aa3",
             "cn": [
                 {
@@ -301,6 +403,12 @@
                         "flex": 1,
                         "text": "Customer"
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "flex": "number",
+                        "text": "string"
+                    },
+                    "name": "MyColumn",
                     "designerId": "e30ce354-c6c4-4cb0-9b3f-f625fcddabd7"
                 },
                 {
@@ -315,6 +423,12 @@
                         "text": "StreetAddress",
                         "width": 145
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyColumn1",
                     "designerId": "32e97bf8-fa08-4793-8581-1223a3510ac7"
                 },
                 {
@@ -329,6 +443,12 @@
                         "text": "City",
                         "width": 101
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyColumn2",
                     "designerId": "88b09276-3338-43b6-a54e-ec0b5bbc4d04"
                 },
                 {
@@ -343,6 +463,12 @@
                         "text": "State",
                         "width": 65
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyColumn3",
                     "designerId": "9e43f27e-97c7-4775-bcf8-ee10678a8d10"
                 },
                 {
@@ -357,6 +483,12 @@
                         "text": "Zip",
                         "width": 76
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string",
+                        "width": "auto"
+                    },
+                    "name": "MyColumn4",
                     "designerId": "f8377788-1e47-430e-a9b6-c86fd40efb3f"
                 },
                 {
@@ -370,6 +502,11 @@
                         "dataIndex": "balance",
                         "text": "Balance"
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string"
+                    },
+                    "name": "moneycolumn",
                     "designerId": "fb75cccf-8184-4b13-a749-43e5f1157d31",
                     "masterInstanceId": "3b87262b-6812-4db7-89eb-adb0c4ce8627"
                 },
@@ -388,6 +525,13 @@
                         "name": "itemclick",
                         "scope": "me"
                     },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onGridpanelItemClick",
                     "designerId": "ca4f2798-b220-43ea-8324-a98ff9ae2340"
                 },
                 {
@@ -400,6 +544,10 @@
                     "userConfig": {
                         "stripeRows": false
                     },
+                    "configAlternates": {
+                        "stripeRows": "boolean"
+                    },
+                    "name": "MyGridView",
                     "designerId": "7b05c068-b72e-40ab-8638-5c4d0bf4f6cf"
                 }
             ]
@@ -417,6 +565,11 @@
                     "customer"
                 ]
             },
+            "configAlternates": {
+                "name": "string",
+                "params": "typedarray"
+            },
+            "name": "CustomEvent1",
             "designerId": "cdec681b-0920-4ad1-bd26-72b7156f5395"
         }
     ]

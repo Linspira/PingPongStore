@@ -13,6 +13,14 @@
         "designer|userClassName": "Main",
         "layout": "vbox"
     },
+    "configAlternates": {
+        "container|align": "string",
+        "container|padding": "auto",
+        "designer|initialView": "boolean",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "layout": "string"
+    },
     "designerId": "9b7d8a97-4dad-4356-9377-6a8711054938",
     "cn": [
         {
@@ -22,6 +30,7 @@
                 "type": "array"
             },
             "codeClass": null,
+            "name": "breadcrumbs",
             "designerId": "01a697d1-07b9-4871-a08e-79046ddffa97",
             "masterInstanceId": "d12bc16d-2e68-4433-af85-d42f91f1f49c"
         },
@@ -41,6 +50,16 @@
                 "layout|flex": null,
                 "layout|margins": "10 0 0"
             },
+            "configAlternates": {
+                "cls": "string",
+                "designer|displayName": "string",
+                "hidden": "boolean",
+                "html": "object",
+                "itemId": "string",
+                "layout|flex": "number",
+                "layout|margins": "string"
+            },
+            "name": "MyComponent1",
             "designerId": "b405307b-1c62-46b7-9df9-6a12c3e0d164"
         },
         {
@@ -59,6 +78,16 @@
                 "layout|margins": "10 0 0",
                 "margin": ""
             },
+            "configAlternates": {
+                "designer|displayName": "string",
+                "frame": "boolean",
+                "itemId": "string",
+                "layout": "string",
+                "layout|flex": "number",
+                "layout|margins": "string",
+                "margin": "auto"
+            },
+            "name": "MyContainer4",
             "designerId": "1be7ab7f-0a56-408d-8c4a-c101b4a1a786",
             "cn": [
                 {
@@ -73,6 +102,12 @@
                         "frame": null,
                         "header": null
                     },
+                    "configAlternates": {
+                        "cls": "string",
+                        "frame": "boolean",
+                        "header": "boolean"
+                    },
+                    "name": "customers",
                     "designerId": "c50617d2-959a-4f73-ae1b-2b58ce8c44ab",
                     "masterInstanceId": "1e53f66b-c073-443e-bad5-3b3a4753ad9c"
                 },
@@ -89,6 +124,13 @@
                         "frame": null,
                         "header": null
                     },
+                    "configAlternates": {
+                        "cls": "string",
+                        "designer|displayName": "string",
+                        "frame": "boolean",
+                        "header": "boolean"
+                    },
+                    "name": "customerdetail",
                     "designerId": "0f56db72-205d-484c-97a9-e593160f898c",
                     "masterInstanceId": "45be5b30-b97b-4211-85f1-7c13008db6fc"
                 },
@@ -104,6 +146,12 @@
                         "designer|displayName": "Order Detail / New Order",
                         "header": null
                     },
+                    "configAlternates": {
+                        "cls": "string",
+                        "designer|displayName": "string",
+                        "header": "boolean"
+                    },
+                    "name": "orderdetail",
                     "designerId": "002f5d6e-4285-40dc-bcbe-bf1fb509cc23",
                     "masterInstanceId": "0a9752c8-bc70-40f4-81d8-03830635dc63"
                 }
@@ -133,6 +181,11 @@
                     ""
                 ]
             },
+            "configAlternates": {
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "updateBreadcrumbs",
             "designerId": "06471db9-3b31-4b45-a6cb-501756f63548"
         },
         {
@@ -156,6 +209,12 @@
                     "Ext.Function.defer(msg.hide, howLong, msg);"
                 ]
             },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "displayMessage",
             "designerId": "4ecc2543-20b5-442e-be50-e16bfd0548a2"
         }
     ]

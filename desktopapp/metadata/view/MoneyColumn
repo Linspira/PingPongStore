@@ -12,6 +12,13 @@
         "designer|userClassName": "MoneyColumn",
         "text": null
     },
+    "configAlternates": {
+        "align": "string",
+        "dataIndex": "datafield",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "text": "string"
+    },
     "designerId": "3b87262b-6812-4db7-89eb-adb0c4ce8627",
     "cn": [
         {
@@ -36,6 +43,12 @@
                     "return Ext.util.Format.currency(value);"
                 ]
             },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "renderer",
             "designerId": "09ad1b3e-a723-4ebe-8b21-ce3ba4424141"
         }
     ]

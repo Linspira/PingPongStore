@@ -20,9 +20,13 @@
         "model": "PeriodTotal",
         "storeId": "PeriodTotals"
     },
-    "mockCfgs": [
-        "data"
-    ],
+    "configAlternates": {
+        "autoLoad": "boolean",
+        "data": "array",
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
     "designerId": "37c37ef2-463e-4a49-a4c8-da1e1d9c3ddc",
     "cn": [
         {
@@ -39,6 +43,12 @@
                     "customerId"
                 ]
             },
+            "configAlternates": {
+                "directFn": "direct",
+                "extraParams": "object",
+                "paramOrder": "typedarray"
+            },
+            "name": "MyDirectProxy3",
             "designerId": "5f3bc7d9-d7c4-4e34-88ac-93f9e1525b4d",
             "cn": [
                 {
@@ -51,6 +61,10 @@
                     "userConfig": {
                         "root": "perPeriodTotals"
                     },
+                    "configAlternates": {
+                        "root": "string"
+                    },
+                    "name": "MyJsonReader",
                     "designerId": "7ed2c4e2-e62a-4462-a839-8199c4281821"
                 }
             ]

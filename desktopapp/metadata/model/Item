@@ -9,6 +9,10 @@
         "designer|userClassName": "Item",
         "idProperty": "itemId"
     },
+    "configAlternates": {
+        "designer|userClassName": "string",
+        "idProperty": "string"
+    },
     "designerId": "b3f961e5-6ae7-4696-9b82-d74a52a37981",
     "cn": [
         {
@@ -22,6 +26,11 @@
                 "name": "itemId",
                 "type": null
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField32",
             "designerId": "848c581c-6988-496d-9ad8-3eaeba1c979a"
         },
         {
@@ -35,6 +44,11 @@
                 "name": "name",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField33",
             "designerId": "ecb35200-f4f7-409f-93da-6f738e6e0ee5"
         },
         {
@@ -48,6 +62,11 @@
                 "name": "perUnitPrice",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField34",
             "designerId": "b57b4ebd-32f6-4e0b-968e-1babcee608c5"
         }
     ]

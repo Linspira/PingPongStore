@@ -11,6 +11,12 @@
         "model": "Customer",
         "storeId": "Customers"
     },
+    "configAlternates": {
+        "autoLoad": "boolean",
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
     "designerId": "6d36e801-38ee-4212-bcaa-a46f90380db4",
     "cn": [
         {
@@ -23,6 +29,10 @@
             "userConfig": {
                 "directFn": "Fulfill.ss.DXCustomers.getCustomers"
             },
+            "configAlternates": {
+                "directFn": "direct"
+            },
+            "name": "MyDirectProxy",
             "designerId": "027e126f-63df-45cb-8cbb-f791bb5fe2eb"
         }
     ]

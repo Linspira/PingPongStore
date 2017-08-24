@@ -15,6 +15,16 @@
         "title": "{name}",
         "width": null
     },
+    "configAlternates": {
+        "container|align": "string",
+        "container|padding": "auto",
+        "designer|userAlias": "string",
+        "designer|userClassName": "string",
+        "height": "auto",
+        "layout": "string",
+        "title": "string",
+        "width": "auto"
+    },
     "designerId": "45be5b30-b97b-4211-85f1-7c13008db6fc",
     "cn": [
         {
@@ -34,6 +44,17 @@
                 "padding": null,
                 "title": null
             },
+            "configAlternates": {
+                "bodyPadding": "auto",
+                "container|align": "string",
+                "container|padding": "auto",
+                "height": "auto",
+                "layout": "string",
+                "layout|flex": "number",
+                "padding": "auto",
+                "title": "string"
+            },
+            "name": "MyPanel",
             "designerId": "8e5f0bfd-639b-4c1f-b85a-a2d2a3cb6185",
             "cn": [
                 {
@@ -48,6 +69,12 @@
                         "margin": "0 20 0 0",
                         "padding": 10
                     },
+                    "configAlternates": {
+                        "border": "auto",
+                        "margin": "auto",
+                        "padding": "auto"
+                    },
+                    "name": "contactinfo",
                     "designerId": "435fac2c-8570-45c7-8c1e-3c4058145c42",
                     "masterInstanceId": "aa4eae10-ff5e-4f4c-9ace-54249feb6754"
                 },
@@ -69,6 +96,16 @@
                         "store": "PeriodTotals",
                         "width": 400
                     },
+                    "configAlternates": {
+                        "animate": "object",
+                        "designer|displayName": "string",
+                        "height": "auto",
+                        "insetPadding": "number",
+                        "layout|flex": "number",
+                        "store": "store",
+                        "width": "auto"
+                    },
+                    "name": "LineChart",
                     "designerId": "c2f10ee6-6fe1-44f4-9274-6b5c86b0871f",
                     "isBuiltIn": true,
                     "iconCls": "icon-line-chart",
@@ -90,6 +127,12 @@
                                 ],
                                 "title": null
                             },
+                            "configAlternates": {
+                                "fields": "typedarray",
+                                "label": "object",
+                                "title": "string"
+                            },
+                            "name": "MyNumericAxis1",
                             "designerId": "0cc2741f-36db-445a-aa70-12fb967bad00"
                         },
                         {
@@ -115,6 +158,13 @@
                                 ],
                                 "title": null
                             },
+                            "configAlternates": {
+                                "designer|displayName": "string",
+                                "fields": "typedarray",
+                                "label": "object",
+                                "title": "string"
+                            },
+                            "name": "MyCategoryAxis1",
                             "designerId": "956edbbd-7a0f-46f5-ad80-ba862112bfc5"
                         },
                         {
@@ -164,6 +214,18 @@
                                     "total"
                                 ]
                             },
+                            "configAlternates": {
+                                "axis": "typedarray",
+                                "fill": "boolean",
+                                "markerConfig": "object",
+                                "shadowAttributes": "array",
+                                "smooth": "number",
+                                "style": "object",
+                                "tips": "object",
+                                "xField": "datafield",
+                                "yField": "typedarray"
+                            },
+                            "name": "MyLineSeries",
                             "designerId": "6ba5805a-84a8-4a85-a6d1-406f6a605d00"
                         }
                     ]
@@ -184,6 +246,14 @@
                 "layout|flex": null,
                 "layout|margins": "10 0"
             },
+            "configAlternates": {
+                "container|align": "string",
+                "designer|displayName": "string",
+                "layout": "string",
+                "layout|flex": "number",
+                "layout|margins": "string"
+            },
+            "name": "MyContainer1",
             "designerId": "c9c29c6b-5194-473f-96ac-6a8c6e5feb9c",
             "cn": [
                 {
@@ -198,6 +268,12 @@
                         "scale": null,
                         "text": "New Order"
                     },
+                    "configAlternates": {
+                        "iconCls": "string",
+                        "scale": "string",
+                        "text": "string"
+                    },
+                    "name": "MyButton",
                     "designerId": "2fe29ed5-3bd1-4702-a950-3a7176ed4353",
                     "cn": [
                         {
@@ -215,6 +291,13 @@
                                 "name": "click",
                                 "scope": "me"
                             },
+                            "configAlternates": {
+                                "fn": "string",
+                                "implHandler": "code",
+                                "name": "string",
+                                "scope": "string"
+                            },
+                            "name": "onNewOrderClick",
                             "designerId": "ade1e3fd-dc7c-4517-94ff-da902b2a6526"
                         }
                     ]
@@ -238,8 +321,16 @@
                 "title": null
             },
             "configAlternates": {
-                "header": "object"
+                "header": "object",
+                "disableSelection": "boolean",
+                "frame": "boolean",
+                "itemId": "string",
+                "layout|flex": "number",
+                "sortableColumns": "boolean",
+                "store": "store",
+                "title": "string"
             },
+            "name": "MyGridPanel1",
             "designerId": "d0d74adb-6ba0-4f3d-9144-8494510a7064",
             "cn": [
                 {
@@ -257,6 +348,13 @@
                         "name": "itemclick",
                         "scope": "me"
                     },
+                    "configAlternates": {
+                        "fn": "string",
+                        "implHandler": "code",
+                        "name": "string",
+                        "scope": "string"
+                    },
+                    "name": "onOrdersGridItemClick",
                     "designerId": "5aa41a2a-3db4-4015-8ac7-916975a1de6f"
                 },
                 {
@@ -271,6 +369,12 @@
                         "flex": 1,
                         "text": "Orders"
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "flex": "number",
+                        "text": "string"
+                    },
+                    "name": "MyColumn5",
                     "designerId": "e6d98d35-955f-4259-b7d8-a9947266c235"
                 },
                 {
@@ -284,6 +388,11 @@
                         "dataIndex": "orderDate",
                         "text": "Order Date"
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string"
+                    },
+                    "name": "MyDateColumn",
                     "designerId": "360e93c9-827c-456b-947e-00e6964d767d"
                 },
                 {
@@ -297,6 +406,11 @@
                         "dataIndex": "shippedDate",
                         "text": "Ship Date"
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string"
+                    },
+                    "name": "MyDateColumn1",
                     "designerId": "795ac452-d0e0-45b4-be50-7602c076de5b"
                 },
                 {
@@ -310,6 +424,11 @@
                         "dataIndex": "total",
                         "text": "Total"
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string"
+                    },
+                    "name": "moneycolumn1",
                     "designerId": "1fe43bde-62c0-46f2-8d94-ebbfcb4dac49",
                     "masterInstanceId": "3b87262b-6812-4db7-89eb-adb0c4ce8627"
                 },
@@ -324,6 +443,11 @@
                         "dataIndex": "balance",
                         "text": "Balance"
                     },
+                    "configAlternates": {
+                        "dataIndex": "datafield",
+                        "text": "string"
+                    },
+                    "name": "moneycolumn2",
                     "designerId": "936ed405-7e6d-471d-a2e8-f0aef821fe6b",
                     "masterInstanceId": "3b87262b-6812-4db7-89eb-adb0c4ce8627"
                 },
@@ -337,6 +461,10 @@
                     "userConfig": {
                         "stripeRows": false
                     },
+                    "configAlternates": {
+                        "stripeRows": "boolean"
+                    },
+                    "name": "MyGridView1",
                     "designerId": "f2881581-6158-4eb9-8cbb-3f175bf5a4c2"
                 }
             ]
@@ -359,6 +487,12 @@
                     "this.customer = customer;"
                 ]
             },
+            "configAlternates": {
+                "designer|params": "typedarray",
+                "fn": "string",
+                "implHandler": "code"
+            },
+            "name": "setCustomer",
             "designerId": "3b760ad2-b7e7-4eb3-9063-bcf7a9a7a3f6"
         },
         {
@@ -376,6 +510,11 @@
                     "order"
                 ]
             },
+            "configAlternates": {
+                "name": "string",
+                "params": "typedarray"
+            },
+            "name": "CustomEvent2",
             "designerId": "116bf320-eb8c-4e3f-afc7-0aa8641dfedf"
         },
         {
@@ -391,6 +530,11 @@
                     "customer"
                 ]
             },
+            "configAlternates": {
+                "name": "string",
+                "params": "typedarray"
+            },
+            "name": "CustomEvent3",
             "designerId": "da6fe391-e6ef-4817-b767-51b76425ad67"
         }
     ]

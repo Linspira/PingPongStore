@@ -8,6 +8,9 @@
     "userConfig": {
         "designer|userClassName": "CustomerCategory"
     },
+    "configAlternates": {
+        "designer|userClassName": "string"
+    },
     "designerId": "45f7ff1d-da6a-40f1-95f7-c5b1df7c098c",
     "cn": [
         {
@@ -21,6 +24,11 @@
                 "name": "category",
                 "type": "string"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField10",
             "designerId": "f8e87322-e774-473f-bb18-6bbfa5df4196"
         },
         {
@@ -34,6 +42,11 @@
                 "name": "count",
                 "type": "int"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField11",
             "designerId": "c232ad64-509d-48e3-a10d-f0a12786b543"
         },
         {
@@ -47,6 +60,11 @@
                 "name": "currentQtrTotal",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField12",
             "designerId": "cf14f68e-17c5-4d85-bc49-5d1d88d09bbb"
         },
         {
@@ -60,6 +78,11 @@
                 "name": "priorQtrTotal",
                 "type": "float"
             },
+            "configAlternates": {
+                "name": "string",
+                "type": "string"
+            },
+            "name": "MyField13",
             "designerId": "84bca75e-9f27-4e3c-87ab-1c6387b2c5c0"
         }
     ]

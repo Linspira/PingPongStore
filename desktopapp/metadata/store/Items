@@ -12,9 +12,13 @@
         "model": "Item",
         "storeId": "Items"
     },
-    "mockCfgs": [
-        "data"
-    ],
+    "configAlternates": {
+        "autoLoad": "boolean",
+        "data": "array",
+        "designer|userClassName": "string",
+        "model": "model",
+        "storeId": "string"
+    },
     "designerId": "30da9405-2106-4c18-92cf-a4b3b0cd1a0c",
     "cn": [
         {
@@ -27,6 +31,10 @@
             "userConfig": {
                 "directFn": "Fulfill.ss.DXCustomers.getAllItems"
             },
+            "configAlternates": {
+                "directFn": "direct"
+            },
+            "name": "MyDirectProxy5",
             "designerId": "5ee411d1-d55c-40a3-9dc5-8294822e2c21"
         }
     ]
